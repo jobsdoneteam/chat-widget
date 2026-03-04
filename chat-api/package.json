@@ -1,0 +1,19 @@
+{
+  "name": "jobsdone-chat-api",
+  "version": "1.0.0",
+  "description": "Jobs Done FAQ bot + lead capture API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.3",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "license": "MIT"
+}
